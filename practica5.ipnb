@@ -1,0 +1,329 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "import math"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 2,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0.9995736030415051"
+      ]
+     },
+     "execution_count": 2,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "math.sin(1.6)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "del math"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0.9995736030415051"
+      ]
+     },
+     "execution_count": 36,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "math.sin(1.6)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0.9995736030415051"
+      ]
+     },
+     "execution_count": 6,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "math.sin(1.6)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 9,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "1j"
+      ]
+     },
+     "execution_count": 9,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "cmath.sqrt(-1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "import cmath"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'Hola amigos'"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "v=\"hola amigos\"\n",
+    "v.capitalize()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['hola', 'amigos', 'como', 'estan']"
+      ]
+     },
+     "execution_count": 15,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "a= \"hola,amigos,como,estan\"\n",
+    "a.split(',')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'hola:amigos:como:estan'"
+      ]
+     },
+     "execution_count": 17,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "\":\".join(['hola', 'amigos', 'como', 'estan'])"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "0.7071067811865475"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "math.sin(math.pi/4)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "metadata": {
+    "scrolled": false
+   },
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "[0.5235987755982988, 0.02392459620393504, 0.0003279531944286708, 2.1407197692357955e-06, 8.151256657387576e-09, 2.031557539903064e-11, 3.5702758612702185e-14, 4.6610066605152965e-17, 4.697946471622608e-20, 3.765990348636185e-23, 2.4582562777354316e-26, 1.3319069487122942e-29, 6.085830871690906e-33, 2.3767308940933064e-36, 8.024559965978495e-40, 2.3655684694452455e-43, 6.14142071157276e-47, 1.4148784520046648e-50, 2.912139347036982e-54, 5.38717636004305e-58, 9.005640161335607e-62, 1.3670804997376798e-65, 1.8928933385037093e-69, 2.4003120084912293e-73, 2.7978706022052946e-77]\n",
+      "[0.5235987755982988, -0.02392459620393504, 0.0003279531944286708, -2.1407197692357955e-06, 8.151256657387576e-09, -2.031557539903064e-11, 3.5702758612702185e-14, -4.6610066605152965e-17, 4.697946471622608e-20, -3.765990348636185e-23, 2.4582562777354316e-26, -1.3319069487122942e-29, 6.085830871690906e-33, -2.3767308940933064e-36, 8.024559965978495e-40, -2.3655684694452455e-43, 6.14142071157276e-47, -1.4148784520046648e-50, 2.912139347036982e-54, -5.38717636004305e-58, 9.005640161335607e-62, -1.3670804997376798e-65, 1.8928933385037093e-69, -2.4003120084912293e-73, 2.7978706022052946e-77]\n",
+      "[1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27, 29, 31, 33, 35, 37, 39, 41, 43, 45, 47, 49]\n",
+      "0.5\n",
+      "0.5\n"
+     ]
+    }
+   ],
+   "source": [
+    "pi=math.pi/6\n",
+    "lis=range(1,50,2)\n",
+    "a=[pi**x/math.factorial(x) for x in lis]\n",
+    "c=[((-1)**n)*a[n] for n in range(len(a))]\n",
+    "sinpi = sum(c)\n",
+    "print(a)\n",
+    "print(c)\n",
+    "print(lis)\n",
+    "print(sinpi)\n",
+    "print(math.sin(math.pi/6))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Ingresa voltaje15\n",
+      "voltaje válido\n"
+     ]
+    }
+   ],
+   "source": [
+    "voltaje=int(input('Ingresa voltaje'))\n",
+    "if -15 <= voltaje <= 15:\n",
+    "    print('voltaje válido')\n",
+    "else:\n",
+    "    print('volatje inválido')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Ingresa n:287\n",
+      "la suma es 41041.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "suma=0.0\n",
+    "n=int(input('Ingresa n:'))\n",
+    "for i in range(n):\n",
+    "    suma = suma+i\n",
+    "print('la suma es {}'.format(suma))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Ingresa n:15\n",
+      "el factorial es 87178291200.0\n",
+      "87178291200\n"
+     ]
+    }
+   ],
+   "source": [
+    "suma=1.0\n",
+    "n=int(input('Ingresa n:'))\n",
+    "for i in range(1,n):\n",
+    "    suma=suma*i\n",
+    "print('el factorial es {}'.format(suma))\n",
+    "print(math.factorial(n-1))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 2",
+   "language": "python",
+   "name": "python2"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 2
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython2",
+   "version": "2.7.13"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
