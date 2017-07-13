@@ -1,7 +1,7 @@
 INTEGER :: io
 REAL::x,y,sum
 sum = 0
-OPEN(1,FILE='io1.data',status="unknown")
+OPEN(1,file='io1.data',status="unknown")
 DO
 READ(1,*,IOSTAT=io) x,y
 IF (io > 0) THEN
